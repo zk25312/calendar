@@ -1,0 +1,4 @@
+#!/bin/bash
+# 升级完成回调：重启服务
+echo "$(date '+%Y-%m-%d %H:%M:%S') - upgraded" >> "${TRIM_PKGVAR}/app.log" 2>/dev/null || true
+exit 0

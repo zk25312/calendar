@@ -1,0 +1,9 @@
+{
+  "multiPlatform": false,
+  "platforms": [
+    "x86",
+    "arm"
+  ],
+  "serverDir": "app/server",
+  "copyToOutput": true
+}

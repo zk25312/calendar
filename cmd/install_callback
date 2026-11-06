@@ -1,0 +1,4 @@
+#!/bin/bash
+# 安装完成回调
+echo "$(date '+%Y-%m-%d %H:%M:%S') - installed" >> "${TRIM_PKGVAR}/app.log" 2>/dev/null || true
+exit 0

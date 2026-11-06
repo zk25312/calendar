@@ -1,0 +1,14 @@
+{
+  ".url": {
+    "calendar.main": {
+      "title": "日历标记",
+      "icon": "images/icon_{0}.png",
+      "type": "iframe",
+      "protocol": "",
+      "gatewayPrefix": "/app/calendar",
+      "gatewaySocket": "app.sock",
+      "url": "/app/calendar",
+      "allUsers": true
+    }
+  }
+}

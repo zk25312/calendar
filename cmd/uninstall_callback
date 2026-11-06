@@ -1,0 +1,4 @@
+#!/bin/bash
+# 卸载完成回调
+echo "uninstalled" >> /dev/null 2>&1 || true
+exit 0
